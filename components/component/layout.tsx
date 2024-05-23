@@ -27,7 +27,7 @@ import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { CardTitle, CardDescription, CardHeader, CardContent, CardFooter, Card } from "@/components/ui/card"
 
-export function layout() {
+export function Layout() {
   return (
     <div className="flex flex-col min-h-screen">
       <header className="bg-gray-900 text-white py-4 px-6 flex justify-between items-center">
