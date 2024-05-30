@@ -87,7 +87,7 @@ export function Layout() {
                   <div>
                     <h3 className="text-lg font-bold mb-2">Education</h3>
                     <ul className="text-gray-600 dark:text-gray-400 space-y-2">
-                      <li>Bachelor's Degree in Computer Science</li>
+                      <li>Bachelor&aposs Degree in Computer Science</li>
                       <li>University of Example</li>
                     </ul>
                   </div>
