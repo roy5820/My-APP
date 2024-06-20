@@ -10,7 +10,7 @@ export default function Home() {
       <header className="py-8 px-4 md:px-6 border-b">
         <div className="container max-w-5xl mx-auto flex items-center justify-between">
           <div className="space-y-1">
-            <h1 className="text-3xl font-bold">John Doe</h1>
+            <h1 className="text-3xl font-bold">HANGYUN-YIM</h1>
             <p className="text-gray-500 dark:text-gray-400">Game Developer</p>
           </div>
           <nav className="hidden md:flex items-center gap-4">
@@ -35,22 +35,16 @@ export default function Home() {
             <div>
               <h2 className="text-3xl font-bold">About Me</h2>
               <p className="mt-4 text-gray-500 dark:text-gray-400">
-                I am a passionate game developer with a strong background in creating engaging and immersive gaming
-                experiences. With years of experience in the industry, I have honed my skills in various aspects of game
-                development, from programming to design and project management.
+              저는 게임 클라이언트 개발자를 목표로 공부를 하고 있는 대학생입니다. 저는 탑다운, 사이드 뷰의 2D 게임을 선호하며, 주로 이러한 뷰의 게임을 만드는 프로젝트들을 진행해 왔습니다. Unity URP의 기능을 최대한 활용하여 2D를 최대한 실감나게 역동적으로 표현하는 것을 목표로 공부하고 있습니다. 추가로 디자인 패턴을 통하여 체계적이고, 재활용성이 높은 코드를 짜는 것을 목표로도 공부하고 있습니다. 추가로 게임 개발 동아리 <b>아디우토</b> 활동을 통해서 방학기간에도 프로젝트를 진행하였다.
               </p>
             </div>
             <div className="grid gap-4">
               <h3 className="text-2xl font-bold">Key Skills</h3>
-              <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-2">
-                <Badge variant="secondary">C#</Badge>
-                <Badge variant="secondary">Unity</Badge>
-                <Badge variant="secondary">Unreal Engine</Badge>
-                <Badge variant="secondary">Game Design</Badge>
-                <Badge variant="secondary">3D Modeling</Badge>
-                <Badge variant="secondary">UI/UX Design</Badge>
-                <Badge variant="secondary">Project Management</Badge>
-                <Badge variant="secondary">Agile Methodology</Badge>
+              <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-2 ">
+                <Badge variant="secondary" className="flex flex-col items-center">Unity</Badge>
+                <Badge variant="secondary" className="flex flex-col items-center">C#</Badge>
+                <Badge variant="secondary" className="flex flex-col items-center">Client Development</Badge>
+                <Badge variant="secondary" className="flex flex-col items-center">Design Patterns</Badge>
               </div>
             </div>
           </div>
@@ -60,101 +54,71 @@ export default function Home() {
             <h2 className="text-3xl font-bold mb-8 md:mb-12">My Projects</h2>
             <div className="grid gap-8 md:gap-12">
               <div className="grid md:grid-cols-2 gap-6 items-center">
-                <img
-                  src="/placeholder.svg"
-                  width="640"
-                  height="360"
+                <a href="https://github.com/roy5820/unity-ProjectColos.git" target="_blank"><img
+                  src="/Colors.png"
+                  width="960"
+                  height="540"
                   alt="Project Screenshot"
                   className="rounded-lg overflow-hidden"
-                />
+                /></a>
                 <div className="space-y-4">
-                  <h3 className="text-2xl font-bold">Dungeon Crawler</h3>
+                  <h3 className="text-2xl font-bold">Project Colors</h3>
                   <p className="text-gray-500 dark:text-gray-400">
-                    A classic dungeon crawler game built with Unity. Players explore a procedurally generated dungeon,
-                    battle monsters, and collect loot.
+                    나의 첫번째 게임 개발 프로젝트이며, 동아리 활동을 통해서 진행하였다. 색깔 마녀인 주인공이 3개의 색(R, G, B)을 이용하여 적을 물리치고 퍼즐을 풀어 앞으로 나아가 보스를 물리치는 게임이다. 매 스테이지를 클리어 할 때마다 랜덤한 보상을 한가지 선택하여 캐릭터를 강화할 수 있다. 허접하지만 있을 건 다 있는 게임!!!
                   </p>
                   <div className="flex gap-2">
                     <Badge variant="secondary">Unity</Badge>
                     <Badge variant="secondary">C#</Badge>
-                    <Badge variant="secondary">Procedural Generation</Badge>
-                  </div>
-                </div>
-              </div>
-              <div className="grid md:grid-cols-2 gap-6 items-center">
-                <img
-                  src="/placeholder.svg"
-                  width="640"
-                  height="360"
-                  alt="Project Screenshot"
-                  className="rounded-lg overflow-hidden"
-                />
-                <div className="space-y-4">
-                  <h3 className="text-2xl font-bold">Platformer Game</h3>
-                  <p className="text-gray-500 dark:text-gray-400">
-                    A 2D platformer game built with Unreal Engine. Players navigate through levels, jump over obstacles,
-                    and collect coins.
-                  </p>
-                  <div className="flex gap-2">
-                    <Badge variant="secondary">Unreal Engine</Badge>
-                    <Badge variant="secondary">C++</Badge>
                     <Badge variant="secondary">2D Platformer</Badge>
                   </div>
                 </div>
               </div>
               <div className="grid md:grid-cols-2 gap-6 items-center">
-                <img
-                  src="/placeholder.svg"
+              <a href="https://github.com/roy5820/unity-ProjectScalett.git" target="_blank"><img
+                  src="/HottelSarett.png"
                   width="640"
                   height="360"
                   alt="Project Screenshot"
                   className="rounded-lg overflow-hidden"
-                />
+                /></a>
                 <div className="space-y-4">
-                  <h3 className="text-2xl font-bold">Multiplayer Shooter</h3>
+                  <h3 className="text-2xl font-bold">Hottel Scalett</h3>
                   <p className="text-gray-500 dark:text-gray-400">
-                    A fast-paced multiplayer shooter game built with Unity. Players compete against each other in
-                    various game modes.
+                    19세기 영국을 배경으로 하는 추리게임. 힘든 사건 해결 후 스칼렛 호텔로 휴향을 온 탐정 존 브래넌과 그의 조수 카밀라! 허나 탐정이 있는 곳에는 사건이 일어나는 법! 그가 머물던 호텔에서 살인 사건이 일어나는데...
                   </p>
                   <div className="flex gap-2">
                     <Badge variant="secondary">Unity</Badge>
                     <Badge variant="secondary">C#</Badge>
-                    <Badge variant="secondary">Multiplayer</Badge>
+                    <Badge variant="secondary">추리</Badge>
+                    <Badge variant="secondary">퍼즐</Badge>
+                  </div>
+                </div>
+              </div>
+              <div className="grid md:grid-cols-2 gap-6 items-center">
+              <a href="https://github.com/roy5820/HexTex.png" target="_blank"><img
+                  src="/HexTex.png"
+                  width="640"
+                  height="360"
+                  alt="Project Screenshot"
+                  className="rounded-lg overflow-hidden"
+                /></a>
+                <div className="space-y-4">
+                  <h3 className="text-2xl font-bold">HexTex</h3>
+                  <p className="text-gray-500 dark:text-gray-400">
+                    빚을 갚기 위해 지하 격투장으로 간 주인공! 적들과 싸워 돈을 모은고 아이템을 사서 자신의 캐릭터를 강화 시키자!
+                  </p>
+                  <div className="flex gap-2">
+                    <Badge variant="secondary">Unity</Badge>
+                    <Badge variant="secondary">C#</Badge>
+                    <Badge variant="secondary">장르: 턴제, 전략, 로그라이크</Badge>
                   </div>
                 </div>
               </div>
             </div>
           </div>
         </section>
-        <section id="skills" className="py-12 md:py-24 px-4 md:px-6">
-          <div className="container max-w-5xl mx-auto">
-            <h2 className="text-3xl font-bold mb-8 md:mb-12">My Skills</h2>
-            <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-6">
-              <div className="bg-gray-100 rounded-lg p-6 flex flex-col items-center text-center dark:bg-gray-800">
-                <CodeIcon className="w-12 h-12 mb-4" />
-                <h3 className="text-xl font-bold mb-2">Programming</h3>
-                <p className="text-gray-500 dark:text-gray-400">Proficient in C#, C++, and various game development frameworks.</p>
-              </div>
-              <div className="bg-gray-100 rounded-lg p-6 flex flex-col items-center text-center dark:bg-gray-800">
-                <BrushIcon className="w-12 h-12 mb-4" />
-                <h3 className="text-xl font-bold mb-2">Art & Design</h3>
-                <p className="text-gray-500 dark:text-gray-400">Skilled in 3D modeling, texturing, and UI/UX design.</p>
-              </div>
-              <div className="bg-gray-100 rounded-lg p-6 flex flex-col items-center text-center dark:bg-gray-800">
-                <PuzzleIcon className="w-12 h-12 mb-4" />
-                <h3 className="text-xl font-bold mb-2">Game Design</h3>
-                <p className="text-gray-500 dark:text-gray-400">Experienced in level design, game mechanics, and storytelling.</p>
-              </div>
-              <div className="bg-gray-100 rounded-lg p-6 flex flex-col items-center text-center dark:bg-gray-800">
-                <ProjectorIcon className="w-12 h-12 mb-4" />
-                <h3 className="text-xl font-bold mb-2">Project Management</h3>
-                <p className="text-gray-500 dark:text-gray-400">
-                  Proficient in Agile methodologies and leading cross-functional teams.
-                </p>
-              </div>
-            </div>
-          </div>
-        </section>
-        <section id="contact" className="py-12 md:py-24 px-4 md:px-6 bg-gray-100 dark:bg-gray-800">
+        
+        {/* <section id="contact" className="py-12 md:py-24 px-4 md:px-6 bg-gray-100 dark:bg-gray-800">
           <div className="container max-w-5xl mx-auto">
             <h2 className="text-3xl font-bold mb-8 md:mb-12">Get in Touch</h2>
             <div className="grid md:grid-cols-2 gap-8">
@@ -186,7 +150,7 @@ export default function Home() {
               </div>
             </div>
           </div>
-        </section>
+        </section> */}
       </main>
       <footer className="py-6 px-4 md:px-6 border-t">
         <div className="container max-w-5xl mx-auto flex items-center justify-between">
