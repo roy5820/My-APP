@@ -14,17 +14,15 @@ export default function Home() {
             <p className="text-gray-500 dark:text-gray-400">Game Developer</p>
           </div>
           <nav className="hidden md:flex items-center gap-4">
-            <Link href="#" className="hover:underline" prefetch={false}>
+            <Link href="#about" className="hover:underline" prefetch={false}>
               About
             </Link>
-            <Link href="#" className="hover:underline" prefetch={false}>
-              Projects
-            </Link>
-            <Link href="#" className="hover:underline" prefetch={false}>
+            
+            <Link href="#Skills" className="hover:underline" prefetch={false}>
               Skills
             </Link>
-            <Link href="#" className="hover:underline" prefetch={false}>
-              Contact
+            <Link href="#projects" className="hover:underline" prefetch={false}>
+              Projects
             </Link>
           </nav>
         </div>
@@ -38,7 +36,7 @@ export default function Home() {
               저는 게임 클라이언트 개발자를 목표로 공부를 하고 있는 대학생입니다. 저는 탑다운, 사이드 뷰의 2D 게임을 선호하며, 주로 이러한 뷰의 게임을 만드는 프로젝트들을 진행해 왔습니다. Unity URP의 기능을 최대한 활용하여 2D를 최대한 실감나게 역동적으로 표현하는 것을 목표로 공부하고 있습니다. 추가로 디자인 패턴을 통하여 체계적이고, 재활용성이 높은 코드를 짜는 것을 목표로도 공부하고 있습니다. 추가로 게임 개발 동아리 <b>아디우토</b> 활동을 통해서 방학기간에도 프로젝트를 진행하였다.
               </p>
             </div>
-            <div className="grid gap-4">
+            <div id = "Skills" className="grid gap-4">
               <h3 className="text-2xl font-bold">Key Skills</h3>
               <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-2 ">
                 <Badge variant="secondary" className="flex flex-col items-center">Unity</Badge>
@@ -55,7 +53,7 @@ export default function Home() {
             <div className="grid gap-8 md:gap-12">
               <div className="grid md:grid-cols-2 gap-6 items-center">
                 <a href="https://github.com/roy5820/unity-ProjectColos.git" target="_blank"><img
-                  src="/Colors.png"
+                  src="/color.gif"
                   width="960"
                   height="540"
                   alt="Project Screenshot"
@@ -75,7 +73,7 @@ export default function Home() {
               </div>
               <div className="grid md:grid-cols-2 gap-6 items-center">
               <a href="https://github.com/roy5820/unity-ProjectScalett.git" target="_blank"><img
-                  src="/HottelSarett.png"
+                  src="/hotelScalett.gif"
                   width="640"
                   height="360"
                   alt="Project Screenshot"
@@ -95,8 +93,8 @@ export default function Home() {
                 </div>
               </div>
               <div className="grid md:grid-cols-2 gap-6 items-center">
-              <a href="https://github.com/roy5820/HexTex.png" target="_blank"><img
-                  src="/HexTex.png"
+              <a href="https://github.com/roy5820/ProjectSix" target="_blank"><img
+                  src="/Hex.gif"
                   width="640"
                   height="360"
                   alt="Project Screenshot"
@@ -154,14 +152,9 @@ export default function Home() {
       </main>
       <footer className="py-6 px-4 md:px-6 border-t">
         <div className="container max-w-5xl mx-auto flex items-center justify-between">
-          <p className="text-gray-500 dark:text-gray-400">&copy; 2024 John Doe. All rights reserved.</p>
+          <p className="text-gray-500 dark:text-gray-400">&copy; 2024 HanGyun Yim. All rights reserved.</p>
           <div className="flex items-center gap-4">
-            <Link href="#" className="hover:underline" prefetch={false}>
-              Privacy Policy
-            </Link>
-            <Link href="#" className="hover:underline" prefetch={false}>
-              Terms of Service
-            </Link>
+            
           </div>
         </div>
       </footer>
