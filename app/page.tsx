@@ -7,7 +7,7 @@ import { Button } from "@/components/ui/button"
 export default function Home() {
   return (
     <div className="flex flex-col min-h-screen bg-white text-gray-950 dark:bg-gray-950 dark:text-gray-50">
-      <header className="py-8 px-4 md:px-6 border-b">
+      <header className="py-8 px-4 md:px-6 border-b bg-white">
         <div className="container max-w-5xl mx-auto flex items-center justify-between">
           <div className="space-y-1">
             <h1 className="text-3xl font-bold">HANGYUN-YIM</h1>
@@ -154,7 +154,9 @@ export default function Home() {
         <div className="container max-w-5xl mx-auto flex items-center justify-between">
           <p className="text-gray-500 dark:text-gray-400">&copy; 2024 HanGyun Yim. All rights reserved.</p>
           <div className="flex items-center gap-4">
-            
+          <Link href="#" className="hover:underline" prefetch={false}>
+              TOP
+            </Link>
           </div>
         </div>
       </footer>
